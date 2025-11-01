@@ -1,14 +1,31 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+import Header from "@/components/Layout/Header";
+
+import type { Metadata } from "next";
+import { Chakra_Petch, Mona_Sans, Poppins, Unbounded } from "next/font/google";
+
+const chakraPetch = Chakra_Petch({
+  variable: "--font-chakrapetch",
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const mona = Mona_Sans({
+  variable: "--font-mona",
+  weight: ["300", "400", "500", "600"],
+  subsets: ["latin"],
+});
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
+
+const unbounded = Unbounded({
+  variable: "--font-unbounded",
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
@@ -25,8 +42,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${chakraPetch.variable} ${poppins.variable} ${mona.variable} ${unbounded.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>

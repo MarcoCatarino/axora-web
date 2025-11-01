@@ -1,26 +1,152 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-prim: #0d1e20;
+  --color-midnight_text: #0c1e21;
+  --color-dark: #26667f;
+  --color-prim-light: #edf0f1;
+
+  --color-dark-blur: #0d1e20e0;
+
+  --color-border: #c9d1d1;
+
+  --color-pera-light: #a9b8b8;
+  --color-pera-dark: #364e52;
+
+  --rotate-y-360: 360px;
+
+  --text-13: 0.8125rem;
+  --text-13-line-heighr: 1.2;
+  --text-14: 0.875rem;
+  --text-14-line-heighr: 1.2;
+  --text-16: 1rem;
+  --text-16-line-heighr: 1.2;
+  --text-18: 1.125rem;
+  --text-18-line-heighr: 1.2;
+  --text-19: 1.1875rem;
+  --text-19-line-heighr: 1.8;
+  --text-20: 1.25rem;
+  --text-20-line-heighr: 1.2;
+  --text-22: 1.375rem;
+  --text-22-line-heighr: 1.2;
+  --text-24: 1.5rem;
+  --text-24-line-heighr: 1.2;
+  --text-25: 1.5625rem;
+  --text-25-line-heighr: 1.2;
+  --text-28: 1.75rem;
+  --text-28-line-heighr: 1.2;
+  --text-35: 2.1875rem;
+  --text-35-line-heighr: 1.2;
+  --text-40: 2.5rem;
+  --text-40-line-heighr: 1.2;
+  --text-48: 3rem;
+  --text-48-line-heighr: 1.2;
+  --text-50: 3.125rem;
+  --text-50-line-heighr: 1.2;
+  --text-60: 4.5rem;
+  --text-60-line-heighr: 1.2;
+
+  --tracking-widest: 0.2em;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer utilities {
+  .font-unbounded {
+    font-family: var(--font-unbounded);
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+
+  .font-chakrapetch {
+    font-family: var(--font-chakrapetch);
+  }
+
+  .font-mona {
+    font-family: var(--font-mona);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@layer components {
+  body {
+    @apply text-base overflow-x-hidden font-normal;
+    -webkit-text-size-adjust: 100%;
+    font-family: var(--font-poppins);
+    scroll-behavior: smooth;
+    background-color: black;
+  }
+
+  textarea,
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    @apply block outline-hidden text-base font-normal m-0 rounded-[0.375rem] w-full capitalize;
+  }
+
+  h1 {
+    @apply md:text-50 text-28 font-medium capitalize;
+  }
+
+  h2 {
+    @apply md:text-40 text-24 font-medium capitalize;
+  }
+
+  h3 {
+    @apply md:text-28 text-18 font-medium text-white capitalize;
+  }
+
+  h4 {
+    @apply text-24 font-medium capitalize;
+  }
+
+  h5 {
+    @apply text-22 font-medium capitalize;
+  }
+}
+
+/* Custom CSS */
+.prim-grident {
+  background: linear-gradient(
+    -45deg,
+    rgba(30, 138, 128, 0.3) 0%,
+    rgba(30, 138, 138, 0) 50% rgba(30, 138, 138, 0.3) 100%
+  );
+}
+
+.flip-vertical {
+  animation: flip-vertioal 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.995) both;
+}
+
+@keyframes flip-vertical {
+  0% {
+    transform: translateZ(0) rotateY(0);
+  }
+  100% {
+    transform: translateZ(160px) rotateY(180deg);
+  }
+}
+.submenu {
+  background-color: #fff !important;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    width: 100% !important;
+    margin: 0 !important;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
 }
