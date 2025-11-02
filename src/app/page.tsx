@@ -1,8 +1,13 @@
+import { Hero } from "@/components/Home/Hero";
+import { Solution } from "@/components/Home/Solution";
+
 export default function Home() {
   return (
-    <div>
-      <h2>Hola</h2>
-      <p>Hola Mundo</p>
-    </div>
+    <>
+      <main>
+        <Hero />
+        <Solution />
+      </main>
+    </>
   );
 }
