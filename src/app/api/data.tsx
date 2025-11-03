@@ -1,6 +1,10 @@
-//Solution
+import Brand1 from "../../../public/images/companies/brand-1.webp";
+import Brand2 from "../../../public/images/companies/brand-2.webp";
+import Brand3 from "../../../public/images/companies/brand-3.webp";
+import Brand4 from "../../../public/images/companies/brand-4.webp";
+import Brand5 from "../../../public/images/companies/brand-5.webp";
 
-import { title } from "process";
+//Solution
 
 export const solutionData = [
   {
@@ -32,5 +36,28 @@ export const solutionData = [
     icon: "mdi:account-group-outline",
     description:
       "Enhance customer journeys to boost satisfaction, loyalty, and long-term",
+  },
+];
+
+export const companies = [
+  {
+    title: "Brand 1",
+    image: Brand1,
+  },
+  {
+    title: "Brand 2",
+    image: Brand2,
+  },
+  {
+    title: "Brand 3",
+    image: Brand3,
+  },
+  {
+    title: "Brand 4",
+    image: Brand4,
+  },
+  {
+    title: "Brand 5",
+    image: Brand5,
   },
 ];
