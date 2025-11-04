@@ -9,6 +9,11 @@ import Project2 from "../../../public/images/projects/project-02.jpg";
 import Project3 from "../../../public/images/projects/project-03.jpg";
 import Project4 from "../../../public/images/projects/project-04.jpg";
 
+import TestimonialImg from "../../../public/images/testimonials/testimonial-img.jpg";
+import User1 from "../../../public/images/testimonials/user.jpg";
+import User2 from "../../../public/images/testimonials/user2.jpg";
+import User3 from "../../../public/images/testimonials/user3.jpg";
+
 //Solution
 
 export const solutionData = [
@@ -99,5 +104,29 @@ export const projects = [
       "We know you need interaction between users of your applications, but it's almost 90% of the objective.",
     link: "https://google.com",
     image: Project4,
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Marco",
+    position: "Boss",
+    text: "It was the best esxperience I have had with any company, the service was perfect, and the did all their effort to complete the task they were given.",
+    image: User1,
+  },
+  {
+    id: 2,
+    name: "Saul",
+    position: "RH",
+    text: "It was the best esxperience I have had with any company, the service was perfect, and the did all their effort to complete the task they were given.",
+    image: User2,
+  },
+  {
+    id: 3,
+    name: "Berenice",
+    position: "Student",
+    text: "It was the best esxperience I have had with any company, the service was perfect, and the did all their effort to complete the task they were given.",
+    image: User3,
   },
 ];
