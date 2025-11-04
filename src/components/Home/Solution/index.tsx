@@ -81,14 +81,14 @@ export const Solution: React.FC = () => {
 
                     <Link
                       href="/about"
-                      className="text-white bg-dark h-[50px] text-16 lg:text-sm w-fit rounded-full font-chakrapetch font-semibold flex gap-2 ps-4 pe-2 py-2 justify-center items-center tracking-wider group"
+                      className="text-dark group-hover:text-white h-[50px] text-16 lg:text-sm w-fit rounded-full font-chakrapetch font-semibold flex gap-2 ps-4 pe-2 py-2 justify-center items-center tracking-wider group"
                     >
                       Learn More
                       <Icon
                         icon="tabler:arrow-right"
                         width="24"
                         height="24"
-                        className="bg-prim text-white rounded-full h-full w-[35px] p-1.5 group-hover:-rotate-45 transition-all duration-300"
+                        className="text-prim group-hover:text-white rounded-full h-full w-[35px] p-1.5 group-hover:-rotate-45 transition-all duration-300"
                       />
                     </Link>
                   </div>
