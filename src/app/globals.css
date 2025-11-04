@@ -225,3 +225,37 @@
 .solution-wrapper .swiper-pagination-bullet .swiper-pagination-active {
   background-color: var(--color-prim);
 }
+
+/* PROCESS */
+.process-item span {
+  font-size: 120px;
+  color: var(--color-prim);
+  background: linear-gradient(180deg, var(--color-prim) 0%, #fff 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  display: inline-flex;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.process-item svg {
+  position: absolute;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--color-prim);
+  font-family: "bexon-icons" !important;
+  font-weight: normal;
+  position: absolute;
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 7px solid #e6e8e8;
+  top: 0;
+  inset-inline-end: -34px;
+  transform: translateY(-50%);
+  z-index: 5;
+  transition: none;
+}
