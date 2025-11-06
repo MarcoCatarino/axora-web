@@ -149,3 +149,26 @@ export const blogs = [
     slug: 3,
   },
 ];
+
+export const footerLinks = [
+  // Services
+  "Customer Experience",
+  "Training Programs",
+  "Business Strategy",
+  "Training Program",
+  "ESG Consulting",
+  "Development Hub",
+
+  // Resources
+  "Contact Us",
+  "Team Members",
+  "Recognitions",
+  "Careers",
+  "News",
+  "Feedback",
+
+  // Legal
+  "Privacy",
+  "Security",
+  "Disclaimer",
+];
