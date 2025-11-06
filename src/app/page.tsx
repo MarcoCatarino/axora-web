@@ -1,3 +1,4 @@
+import { Blog } from "@/components/Home/Blog";
 import { Commitment } from "@/components/Home/Commitment";
 import { Companies } from "@/components/Home/Companies";
 import { Hero } from "@/components/Home/Hero";
@@ -19,6 +20,7 @@ export default function Home() {
         <Projects />
         <Testimonials />
         <Pricing />
+        <Blog />
       </main>
     </>
   );

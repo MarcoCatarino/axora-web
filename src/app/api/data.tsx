@@ -9,12 +9,16 @@ import Project2 from "../../../public/images/projects/project-02.jpg";
 import Project3 from "../../../public/images/projects/project-03.jpg";
 import Project4 from "../../../public/images/projects/project-04.jpg";
 
-import TestimonialImg from "../../../public/images/testimonials/testimonial-img.jpg";
 import User1 from "../../../public/images/testimonials/user.jpg";
 import User2 from "../../../public/images/testimonials/user2.jpg";
 import User3 from "../../../public/images/testimonials/user3.jpg";
 
-//Solution
+import Blog1 from "../../../public/images/blog/blog-1.jpg";
+import Blog2 from "../../../public/images/blog/blog-2.jpg";
+import Blog3 from "../../../public/images/blog/blog-3.jpg";
+import BlogServ1 from "../../../public/images/blog/service-1.webp";
+import BlogServ2 from "../../../public/images/blog/service-2.webp";
+import BlogServ3 from "../../../public/images/blog/service-3.webp";
 
 export const solutionData = [
   {
@@ -107,5 +111,41 @@ export const testimonials = [
     position: "Student",
     text: "It was the best esxperience I have had with any company, the service was perfect, and the did all their effort to complete the task they were given.",
     image: User3,
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    author: "Arturo",
+    title: "Game Development in 2025",
+    description:
+      "With the grow of the gaming industry, some can think that the developers will have a lot of work oportunities, but it's currently the oposite because the companies have been with masive layoffs",
+    category: "Games",
+    date: "18 Jun",
+    image: Blog1,
+    slug: 1,
+  },
+  {
+    id: 2,
+    author: "Miguel",
+    title: "How does Social Media impact in highschools?",
+    description:
+      "Thw social media has been one of the main topics in the schedule of all the governments, and it's actual an important topic we must focus",
+    category: "Social",
+    date: "18 Jun",
+    image: Blog2,
+    slug: 2,
+  },
+  {
+    id: 3,
+    author: "Josue",
+    title: "The 3 best snack to eat as a developer",
+    description:
+      "As developers, most of the times we don't care about our healt, so we must change that by duing some excersise and eating more healthy and in our breaks we can have this desserts.",
+    category: "Cook",
+    date: "18 Jun",
+    image: Blog3,
+    slug: 3,
   },
 ];
