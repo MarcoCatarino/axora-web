@@ -49,28 +49,7 @@ export const solutionData = [
   },
 ];
 
-export const companies = [
-  {
-    title: "Brand 1",
-    image: Brand1,
-  },
-  {
-    title: "Brand 2",
-    image: Brand2,
-  },
-  {
-    title: "Brand 3",
-    image: Brand3,
-  },
-  {
-    title: "Brand 4",
-    image: Brand4,
-  },
-  {
-    title: "Brand 5",
-    image: Brand5,
-  },
-];
+export const companies = [Brand1, Brand2, Brand3, Brand4, Brand5];
 
 export const projects = [
   {

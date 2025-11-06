@@ -53,7 +53,7 @@ export const Companies: React.FC = () => {
               <SwiperSlide key={index}>
                 <div className="companies-item h-[100px] w-full bg-white shadow-xl px-8 rounded-xl flex items-center justify-center cursor-pointer">
                   <Image
-                    src={company.image}
+                    src={company}
                     alt={`brand-${index + 1}`}
                     width={150}
                     height={80}
