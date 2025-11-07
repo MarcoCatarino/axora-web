@@ -27,7 +27,7 @@ export const Commitment: React.FC = () => {
   return (
     <>
       <section className="bg-light overflow-hidden py-14 lg:py-18 xl:22 bg-prim-light">
-        <div className="container mx-auto lg:max-w-(--nreakpoint-xl) md:max-w-(--breakpoint-md) px-4 space-y-8">
+        <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 space-y-8">
           <div className="commitment-content bg-white p-8 rounded-2xl">
             <span className="sub-title text-14 bg-prim text-white py-1 rounded-xl relative font-chakrapetch capitalize ps-5 pe-3">
               Choose the best

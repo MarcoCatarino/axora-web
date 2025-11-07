@@ -16,21 +16,21 @@ export const Solution: React.FC = () => {
   return (
     <>
       <section className="bg-light overflow-hidden py-14 lg:py-18 xl:22 bg-prim-light">
-        <div className="container mx-auto lg:max-w-(--nreakpoint-xl) md:max-w-(--breakpoint-md) px-4 space-y-14">
+        <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 space-y-14">
           <div className="solution-content flex justify-between items-start lg:items-end gap-2 flex-col lg:flex-row">
             <div>
               <span className="sub-title text-14 bg-prim text-white py-1 rounded-xl relative font-chakrapetch capitalize ps-5 pe-3">
                 Our Solution
               </span>
 
-              <h2 className="w-full lg:3/4 mt-4 font-chakrapetch lg:text-35 font-semibold">
+              <h2 className="w-full lg:w-3/4 mt-4 font-chakrapetch lg:text-35 font-semibold">
                 Tailor-Made Business Solutions for Modern Corporates
               </h2>
             </div>
 
             <Link
               href="/services"
-              className="text-white bg-dark h-[50px] text-16 lg:text-sm w-fit rounded-full font-chakrapetch font-semibold flex gap-2 ps-4 pe-2 py-2 justify-center items-center tracking-wider group"
+              className="text-white bg-dark h-[50px] text-sm lg:text-16 w-fit rounded-full font-chakrapetch font-semibold flex gap-2 ps-4 pe-2 py-2 justify-center items-center tracking-wider group"
             >
               Explore More
               <Icon
@@ -81,7 +81,7 @@ export const Solution: React.FC = () => {
 
                     <Link
                       href="/about"
-                      className="text-dark group-hover:text-white h-[50px] text-16 lg:text-sm w-fit rounded-full font-chakrapetch font-semibold flex gap-2 ps-4 pe-2 py-2 justify-center items-center tracking-wider group"
+                      className="text-dark group-hover:text-white h-[50px] text-sm lg:text-16 w-fit rounded-full font-chakrapetch font-semibold flex gap-2 ps-4 pe-2 py-2 justify-center items-center tracking-wider group"
                     >
                       Learn More
                       <Icon

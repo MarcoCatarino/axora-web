@@ -12,14 +12,14 @@ export const Process: React.FC = () => {
   return (
     <>
       <section className="bg-light overflow-hidden py-14 lg:py-18 xl:22 bg-prim-light">
-        <div className="container mx-auto lg:max-w-(--nreakpoint-xl) md:max-w-(--breakpoint-md) px-4 space-y-14">
+        <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 space-y-14">
           <div className="process-content flex justify-between items-start lg:items-end gap-2 flex-col lg:flex-row">
             <div>
               <span className="sub-title text-14 bg-prim text-white py-1 rounded-xl relative font-chakrapetch capitalize ps-5 pe-3">
                 Our Process
               </span>
 
-              <h2 className="w-full lg:3/4 mt-4 font-chakrapetch lg:text-35 font-semibold">
+              <h2 className="w-full lg:w-3/4 mt-4 font-chakrapetch lg:text-35 font-semibold">
                 Seamless Process, Great Results
               </h2>
             </div>
