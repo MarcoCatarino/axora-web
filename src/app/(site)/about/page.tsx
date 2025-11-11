@@ -10,7 +10,7 @@ import AboutImg from "../../../../public/images/about/about-01.webp";
 import { HeroSub } from "@/components/SharedComponentsa/HeroSub";
 import { Companies } from "@/components/Home/Companies";
 import { Testimonials } from "@/components/Home/Testimonials";
-import { describe } from "node:test";
+import { Team } from "@/components/Home/Team";
 
 export default function page() {
   const breadcrumbLinks = [
@@ -188,6 +188,8 @@ export default function page() {
           </div>
         </div>
       </div>
+
+      <Team limit={4} />
     </>
   );
 }

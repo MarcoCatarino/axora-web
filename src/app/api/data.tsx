@@ -16,9 +16,15 @@ import User3 from "../../../public/images/testimonials/user3.jpg";
 import Blog1 from "../../../public/images/blog/blog-1.jpg";
 import Blog2 from "../../../public/images/blog/blog-2.jpg";
 import Blog3 from "../../../public/images/blog/blog-3.jpg";
-import BlogServ1 from "../../../public/images/blog/service-1.webp";
-import BlogServ2 from "../../../public/images/blog/service-2.webp";
-import BlogServ3 from "../../../public/images/blog/service-3.webp";
+
+import team1 from "../../../public/images/team/team-1.webp";
+import team2 from "../../../public/images/team/team-2.webp";
+import team3 from "../../../public/images/team/team-3.webp";
+import team4 from "../../../public/images/team/team-4.webp";
+import team5 from "../../../public/images/team/team-5.webp";
+import team6 from "../../../public/images/team/team-6.webp";
+import team7 from "../../../public/images/team/team-7.webp";
+import team8 from "../../../public/images/team/team-8.webp";
 
 export const solutionData = [
   {
@@ -171,4 +177,55 @@ export const footerLinks = [
   "Privacy",
   "Security",
   "Disclaimer",
+];
+
+export const team = [
+  {
+    id: 1,
+    image: team1,
+    name: "Carlos",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
+  {
+    id: 2,
+    image: team2,
+    name: "Mike",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
+  {
+    id: 3,
+    image: team3,
+    name: "Kike",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
+  {
+    id: 4,
+    image: team4,
+    name: "Sauri",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
+  {
+    id: 5,
+    image: team5,
+    name: "Yael",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
+  {
+    id: 6,
+    image: team6,
+    name: "Arturo",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
+  {
+    id: 7,
+    image: team7,
+    name: "Hector",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
+  {
+    id: 8,
+    image: team8,
+    name: "Manuel",
+    post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
+  },
 ];
