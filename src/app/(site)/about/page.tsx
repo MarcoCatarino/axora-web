@@ -8,8 +8,6 @@ import { Icon } from "@iconify/react";
 import AboutImg from "../../../../public/images/about/about-01.webp";
 
 import { HeroSub } from "@/components/SharedComponentsa/HeroSub";
-import { Companies } from "@/components/Home/Companies";
-import { Testimonials } from "@/components/Home/Testimonials";
 import { Team } from "@/components/Home/Team";
 
 export default function page() {
@@ -53,7 +51,7 @@ export default function page() {
 
   return (
     <>
-      <HeroSub title="about" description="" breadcrumbLinks={breadcrumbLinks} />
+      <HeroSub title="About" description="" breadcrumbLinks={breadcrumbLinks} />
       <div className="bg-light overflow-hidden py-14 lg:py-18 xl:py-22">
         <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 space-y-14">
           <div className="about-content flex justify-between items-start lg:items-end gap-2 flex-col lg:flex-row">

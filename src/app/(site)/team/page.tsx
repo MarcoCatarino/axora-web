@@ -1,9 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { Icon } from "@iconify/react";
 
 import { HeroSub } from "@/components/SharedComponentsa/HeroSub";
 import { Team } from "@/components/Home/Team";
