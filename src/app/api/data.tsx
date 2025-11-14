@@ -229,3 +229,48 @@ export const team = [
     post: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repellat aliquam repudiandae, voluptates, vel dolorum quibusdam veniam cum illo veritatis, maiores est fugiat qui iste! Odit consectetur aut eum harum?",
   },
 ];
+
+export const services = [
+  {
+    icon: "clarity-building-solid",
+    title: "Business Strategy Development",
+    description:
+      "Through a combination of data-driven insight and innovative approaches, we work closely with you to develop customized solutions.",
+    href: "#",
+  },
+  {
+    icon: "dashicons-businessman",
+    title: "Customer Experience Solutions",
+    description:
+      "Developing personalized customer journerys to increase satisfaction and loyalty.",
+    href: "#",
+  },
+  {
+    icon: "mdi:recycle",
+    title: "Sustainability And ESG Consulting",
+    description:
+      "Provide tailored strategies that not only drive long-term value but also build trust with skatholders, investors.",
+    href: "#",
+  },
+  {
+    icon: "clarity:blocks-group-solid-badged",
+    title: "Training And Development Programs",
+    description:
+      "Training and Development Programs are designed to empower employes with the skills, knowledge, and tools they need.",
+    href: "#",
+  },
+  {
+    icon: "fa-solid:tools",
+    title: "IT Support & Maintenance",
+    description:
+      "Our IT Support & Maintainance services ensure that your technology infrastructure running smoothly and securely.",
+    href: "#",
+  },
+  {
+    icon: "streamline-sharp:hierarchy-2",
+    title: "Marketing Strategy & Campaigns",
+    description:
+      "Effective marketing is key to driving business growth. Our Matketing Strategy & Campaign service",
+    href: "#",
+  },
+];
