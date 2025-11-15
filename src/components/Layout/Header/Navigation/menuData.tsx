@@ -17,7 +17,7 @@ export const headerData: headerItem[] = [
     href: "#",
     submenu: [
       { label: "Services List", href: "/services" },
-      { label: "Services Details", href: "/services" },
+      { label: "Services Details", href: "/services/" },
     ],
   },
   {
