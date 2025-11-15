@@ -236,41 +236,53 @@ export const services = [
     title: "Business Strategy Development",
     description:
       "Through a combination of data-driven insight and innovative approaches, we work closely with you to develop customized solutions.",
-    href: "#",
+    image: "",
+    href: "/services/business-strategy-development",
+    slug: "business-strategy-development",
   },
   {
     icon: "dashicons-businessman",
     title: "Customer Experience Solutions",
     description:
       "Developing personalized customer journerys to increase satisfaction and loyalty.",
-    href: "#",
+    image: "",
+    href: "/services/customer-experience-solutions",
+    slug: "customer-experience-solutions",
   },
   {
     icon: "mdi:recycle",
     title: "Sustainability And ESG Consulting",
     description:
       "Provide tailored strategies that not only drive long-term value but also build trust with skatholders, investors.",
-    href: "#",
+    image: "",
+    href: "/services/sustainability-consulting",
+    slug: "sustainability-consulting",
   },
   {
     icon: "clarity:blocks-group-solid-badged",
     title: "Training And Development Programs",
     description:
       "Training and Development Programs are designed to empower employes with the skills, knowledge, and tools they need.",
-    href: "#",
+    image: "",
+    href: "/services/training-development-programs",
+    slug: "training-development-programs",
   },
   {
     icon: "fa-solid:tools",
     title: "IT Support & Maintenance",
     description:
       "Our IT Support & Maintainance services ensure that your technology infrastructure running smoothly and securely.",
-    href: "#",
+    image: "",
+    href: "/services/it-support-maintenance",
+    slug: "it-support-maintenance",
   },
   {
     icon: "streamline-sharp:hierarchy-2",
     title: "Marketing Strategy & Campaigns",
     description:
       "Effective marketing is key to driving business growth. Our Matketing Strategy & Campaign service",
-    href: "#",
+    image: "",
+    href: "/services/marketing-strategy-campaigns",
+    slug: "marketing-strategy-campaigns",
   },
 ];
