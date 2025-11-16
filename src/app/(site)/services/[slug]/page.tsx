@@ -58,7 +58,8 @@ const ServiceDetails = ({ params }: Props) => {
 
   const breadcrumbLinks = [
     { href: "/", text: "Home" },
-    { href: "/services", text: "Service Details" },
+    { href: "/services", text: "Services" },
+    { href: "/services/", text: "Service Details" },
   ];
 
   const [openIndex, setOpenIndex] = useState<number | null>(0);
