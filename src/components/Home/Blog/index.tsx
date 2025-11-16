@@ -14,7 +14,7 @@ export const Blog = () => {
               Our Blogs
             </span>
 
-            <h2 className="w-full lg:w-3/4 mt-4 font-chakrapetch lg:text-35 font-semibold">
+            <h2 className="w-full mt-4 font-chakrapetch lg:text-35 font-semibold">
               Strategies & Insights
             </h2>
           </div>
