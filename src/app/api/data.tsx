@@ -26,6 +26,11 @@ import team6 from "../../../public/images/team/team-6.webp";
 import team7 from "../../../public/images/team/team-7.webp";
 import team8 from "../../../public/images/team/team-8.webp";
 
+import portfolio1 from "../../../public/images/protfolio/project-1.webp";
+import portfolio2 from "../../../public/images/protfolio/project-2.webp";
+import portfolio3 from "../../../public/images/protfolio/project-3.webp";
+import portfolio4 from "../../../public/images/protfolio/project-4.webp";
+
 export const solutionData = [
   {
     title: "Training & Development",
@@ -284,5 +289,40 @@ export const services = [
     image: "",
     href: "/services/marketing-strategy-campaigns",
     slug: "marketing-strategy-campaigns",
+  },
+];
+
+export const portfolio = [
+  {
+    id: 1,
+    category: "Business",
+    title: "Event Management Platform",
+    description: "",
+    slug: "event-management",
+    image: portfolio1,
+  },
+  {
+    id: 2,
+    category: "Connect",
+    title: "Digital Marketing Campaign",
+    description: "",
+    slug: "digital-marketing",
+    image: portfolio2,
+  },
+  {
+    id: 3,
+    category: "Empower",
+    title: "Interactive Learning Platform",
+    description: "",
+    slug: "interactive-learning",
+    image: portfolio3,
+  },
+  {
+    id: 4,
+    category: "Support",
+    title: "Environment Impact Dashboard",
+    description: "",
+    slug: "environment-impact",
+    image: portfolio4,
   },
 ];
