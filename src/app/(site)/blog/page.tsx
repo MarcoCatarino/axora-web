@@ -36,7 +36,7 @@ const recentPosts = [
 const Page = () => {
   const breadcrumbLinks = [
     { href: "/", text: "Home" },
-    { href: "/blog", text: "Blog" },
+    { href: "/blog", text: "Blogs" },
   ];
 
   const [searchTerm, setSearchTerm] = useState("");

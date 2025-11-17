@@ -135,7 +135,7 @@ export const blogs = [
     category: "Games",
     date: "18 Jun",
     image: Blog1,
-    slug: 1,
+    slug: "game-development",
   },
   {
     id: 2,
@@ -146,7 +146,7 @@ export const blogs = [
     category: "Social",
     date: "18 Jun",
     image: Blog2,
-    slug: 2,
+    slug: "social-media-impact",
   },
   {
     id: 3,
@@ -157,7 +157,7 @@ export const blogs = [
     category: "Cook",
     date: "18 Jun",
     image: Blog3,
-    slug: 3,
+    slug: "snack-eating-as-developer",
   },
 ];
 

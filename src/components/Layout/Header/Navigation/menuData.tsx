@@ -33,7 +33,7 @@ export const headerData: headerItem[] = [
     href: "#",
     submenu: [
       { label: "Blog", href: "/blog" },
-      { label: "Services Details", href: "/blog-details" },
+      { label: "Services Details", href: "/blog/" },
     ],
   },
   // { label: "Contact", href: "/contact" },
